@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="<%= BASE_URL %>css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="<%= BASE_URL %>css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="<%= BASE_URL %>css/vendor.bundle.addons.css">
+  <link rel="stylesheet" href="<%= BASE_URL %>css/style.css">
   </head>
   <body>
     <noscript>
@@ -13,5 +17,17 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+     <!-- plugins:js -->
+  <script src="<%= BASE_URL %>js/vendor.bundle.base.js"></script>
+  <script src="<%= BASE_URL %>js/vendor.bundle.addons.js"></script>
+  <script src="<%= BASE_URL %>js/off-canvas.js"></script>
+  <script src="<%= BASE_URL %>js/hoverable-collapse.js"></script>
+  <script src="<%= BASE_URL %>js/template.js"></script>
+  <script src="<%= BASE_URL %>js/settings.js"></script>
+  <script src="<%= BASE_URL %>js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <!-- End custom js for this page-->
   </body>
 </html>
