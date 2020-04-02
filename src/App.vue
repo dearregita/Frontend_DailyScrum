@@ -8,19 +8,19 @@
   </div>
 </template>
 
-// <script>
-// import Navbar from './views/layouts/Navbar'
+<script>
+import Navbar from './views/layouts/Navbar'
 
-// export default {
-//   name: 'App',
-//   components: {
-//     Navbar
-//   },
+export default {
+  name: 'App',
+  components: {
+    Navbar
+  },
 
-//   data : function(){
-//     return {
-//       status_login: ''
-//     }
-//   }
-// }
-// </script>
+  data : function(){
+    return {
+      status_login: ''
+    }
+  }
+}
+</script>

@@ -218,8 +218,7 @@ module.exports = {
       .then(response => {
         if(response.data.status == 1){
           this.$bvToast.hide("loadingToast");
-          this.store;
-          this.dailyscrum = response.data.daily;
+          this.dailyscrum = response.data.id_users;
           this.rows = response.data.count;
         } else {
           this.$bvToast.hide("loadingToast");
