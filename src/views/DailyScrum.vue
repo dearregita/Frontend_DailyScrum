@@ -16,7 +16,7 @@
                     <b-badge variant="primry">{{ data.item.daily}}</b-badge>
                   </template>
                   <template v-slot:cell(Aksi)="data">
-                    <b-button size="sm" variant="danger" v-on:click="Drop(data.item.id)"><i class="mdi mdi-delete btn-icon-prepend"></i> Hapus</b-button>
+                    <b-button size="sm" variant="danger" v-on:click="Drop(data.item.id)"><i class="mdi mdi-delete btn-icon-prepend"></i></b-button>
                   </template>
                 </b-table>
                   
@@ -101,6 +101,7 @@ module.exports = {
       activity_today: "",
       problem_yesterday: "",
       solution: "",
+      tanggal:"",
       action: "",
       message: "",
       currentPage: 1,
@@ -110,7 +111,7 @@ module.exports = {
       dataDaily: [],
       dailyscrum: [],
       users: [],
-      fields: ["id", "team", "activity_yesterday", "activity_today", "problem_yesterday","solution" ,"Aksi"],
+      fields: ["tanggal", "activity_yesterday", "activity_today", "problem_yesterday","solution" ,"Aksi"],
 
     }
   },
