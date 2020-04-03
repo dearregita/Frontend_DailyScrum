@@ -168,8 +168,7 @@
         let email = this.email;
         let password = this.password;
         let password_confirmation = this.password_confirmation;
-        this.$store
-          .dispatch('register', {
+        this.$store.dispatch('register', {
             Firstname,
             Lastname,
             email,
